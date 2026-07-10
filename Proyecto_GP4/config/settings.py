@@ -28,12 +28,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-94-df+ga0hlu8c!12ox&vjddcy^1ssczn7*ay=x1$y+yi71$f@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://proyecto-s2yf.onrender.com',
+    https://despliegue-proyecto-5bu1.onrender.com,
 ]
 
 # Application definition
